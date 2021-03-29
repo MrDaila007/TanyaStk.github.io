@@ -1,1 +1,1 @@
-# TanyaStk..github.io
+# TanyaStk.github.io

@@ -1,40 +1,28 @@
 @font-face{
-    font-family: 'Asap-Regular';
-    src:url(./assets/fonts/Asap-Regular.otf)
+    font-family: 'Montserrat-Black';
+    src:url(./assets/fonts/Montserrat-Black.ttf)
 }
 @font-face{
-    font-family: 'LucidaSans-Italic';
-    src:url(./assets/fonts/LucidaSans-Italic.TTF)
+    font-family: 'Montserrat-Bold';
+    src:url(./assets/fonts/Montserrat-Bold.ttf)
 }
 @font-face{
-    font-family: 'MyriadPro-Regular';
-    src:url(./assets/fonts/MyriadPro-Regular.ttf)
+    font-family: 'Montserrat-Medium';
+    src:url(./assets/fonts/Montserrat-Medium.ttf)
 }
 @font-face{
-    font-family: 'OpenSans';
-    src:url(./assets/fonts/OpenSans.ttf)
+    font-family: 'Montserrat-Regular';
+    src:url(./assets/fonts/Montserrat-Regular.ttf)
 }
 @font-face{
-    font-family: 'PTSans-NarrowBold';
-    src:url(./assets/fonts/PTSans-NarrowBold.ttf)
+    font-family: 'Montserrat-SemiBold';
+    src:url(./assets/fonts/Montserrat-SemiBold.ttf)
 }
-@font-face{
-    font-family: 'PTSans-Regular';
-    src:url(./assets/fonts/PTSans-Regular.ttf)
+
+html{
+    box-sizing: border-box;
 }
-@font-face{
-    font-family: 'SegoeUI';
-    src:url(./assets/fonts/SegoeUI.ttf)
-}
-@font-face{
-    font-family: 'SegoeUI-Bold';
-    src:url(./assets/fonts/SegoeUI-Bold.ttf)
-}
-@font-face{
-    font-family: 'SegoeWP';
-    src:url(./assets/fonts/SegoeWP.ttf)
-}
-@font-face{
-    font-family: 'SegoeWP-light';
-    src:url(./assets/fonts/SegoeWP-light.ttf)
+
+*, *::before, *::after{
+    box-sizing: inherit;
 }

@@ -38,3 +38,156 @@
     font-family: 'SegoeWP-light';
     src:url(./assets/fonts/SegoeWP-light.ttf)
 }
+
+
+/* MORE PAGE PART */
+.home-button, .profile-button, .search-button, .more-button{
+    width: 373px;
+    height: 63px;
+    border: none;
+}
+.buttons img{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.buttons h3{
+    display: inline;
+}
+.buttons button{
+    display: table;
+}
+.tweet{
+    width: 373px;
+    height: 63px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(171, 197, 236, 1);
+}
+.settings button{
+    width: 416px;
+    height: 64px;
+    border: none;
+    border-radius: 70px;
+}
+.logo {
+    /* Logo */
+
+
+position: absolute;
+width: 145px;
+height: 30px;
+left: 70px;
+top: 25px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.footer{
+    /* More */
+position: absolute;
+width: 93px;
+height: 43px;
+left: 567px;
+top: 15px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+color: #000000;
+}
+.help-button{
+    /* Rectangle 25 */
+position: absolute;
+width: 416px;
+height: 64px;
+left: 289px;
+top: 30px;
+
+background: rgba(196, 196, 196, 0.3);
+border-radius: 40px;
+}
+.home-button {
+    /* Rectangle 18 */
+
+
+position: absolute;
+left: 70px;
+top: 100px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.profile-button{
+    /* Rectangle 19 */
+position: absolute;
+width: 373px;
+height: 63px;
+left: 70px;
+top: 176px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.search-button{
+    /* Rectangle 20 */
+
+
+position: absolute;
+width: 373px;
+height: 63px;
+left: 70px;
+top: 252px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.more-button{
+    /* Rectangle 21 */
+position: absolute;
+width: 373px;
+height: 63px;
+left: 70px;
+top: 327px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tweet{
+    /* Rectangle 11 */
+
+
+position: absolute;
+width: 373px;
+height: 62px;
+left: 70px;
+top: 430px;
+
+background: #ABC5EC;
+border-radius: 100px;
+}
+.mouse
+{
+    /* Rectangle 17 */
+
+
+position: absolute;
+width: 993px;
+height: 717px;
+left: 0px;
+top: 361px;
+filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+display: none;
+
+}

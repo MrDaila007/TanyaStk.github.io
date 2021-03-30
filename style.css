@@ -41,6 +41,11 @@
 
 
 /* MORE PAGE PART */
+.wrapper-more {
+max-width: 1440px;
+max-height: 700px;
+margin: 0 auto;
+}
 .home-button, .profile-button, .search-button, .more-button{
     width: 373px;
     height: 63px;
@@ -55,7 +60,7 @@
     display: inline;
 }
 .buttons button{
-    display: table;
+    display: block;
 }
 .tweet{
     width: 373px;
@@ -74,12 +79,11 @@
     /* Logo */
 
 
-position: absolute;
+position: sticky;
+left: 70px;
 width: 145px;
 height: 30px;
-left: 70px;
-top: 25px;
-
+margin-top: 5px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -91,29 +95,12 @@ color: #000000;
 
 }
 
-.footer{
-    /* More */
-position: absolute;
-width: 93px;
-height: 43px;
-left: 567px;
-top: 15px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 35px;
-line-height: 43px;
-/* identical to box height */
-color: #000000;
-}
 .help-button{
     /* Rectangle 25 */
-position: absolute;
+/* position: absolute; */
 width: 416px;
 height: 64px;
-left: 289px;
-top: 30px;
 
 background: rgba(196, 196, 196, 0.3);
 border-radius: 40px;
@@ -122,7 +109,7 @@ border-radius: 40px;
     /* Rectangle 18 */
 
 
-position: absolute;
+/* position: absolute; */
 left: 70px;
 top: 100px;
 background: #FFFFFF;
@@ -130,7 +117,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .profile-button{
     /* Rectangle 19 */
-position: absolute;
+/* position: absolute; */
 width: 373px;
 height: 63px;
 left: 70px;
@@ -143,7 +130,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* Rectangle 20 */
 
 
-position: absolute;
+/* position: absolute; */
 width: 373px;
 height: 63px;
 left: 70px;
@@ -154,7 +141,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .more-button{
     /* Rectangle 21 */
-position: absolute;
+/* position: absolute; */
 width: 373px;
 height: 63px;
 left: 70px;
@@ -168,7 +155,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* Rectangle 11 */
 
 
-position: absolute;
+/* position: absolute; */
 width: 373px;
 height: 62px;
 left: 70px;
@@ -182,7 +169,7 @@ border-radius: 100px;
     /* Rectangle 17 */
 
 
-position: absolute;
+/* position: absolute; */
 width: 993px;
 height: 717px;
 left: 0px;
@@ -190,4 +177,42 @@ top: 361px;
 filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
 display: none;
 
+}
+li{
+    list-style-type: none;
+    margin-top: 12px;
+}
+.tweet{
+    margin-top: 40px;
+}
+.Nav-menu{
+    margin-top: 25px;
+}
+.more-block{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    width: 993px;
+    height: 73px;
+}
+.more-text h2{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 106px;
+    height: 43px;
+    top: 15px;
+    margin-left: 30px;
+    margin-top: 14px;
+    padding: 10px;
+}
+.slider-contener{
+    position: relative;
+    top: -430px;
+    left: 437px;
+}
+.settings{
+    margin-left: 289px;
 }
